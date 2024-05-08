@@ -1,0 +1,13 @@
+# 🍒 BDD - Extra para treino de conhecimento de QA 🍒
+
+**Cenário**: Criar uma conta bancária pelo terminal
+**Dado** que o usuário inicia o programa ContaBanco
+**Quando** o programa solicita ao usuário para inserir o número da agência
+**E** o usuário insere o número da agência
+**Então** o programa solicita ao usuário para inserir o número da conta
+**E** o usuário insere o número da conta
+**Então** o programa solicita ao usuário para inserir o nome do cliente
+**E** o usuário insere o nome do cliente
+**Então** o programa solicita ao usuário para inserir o saldo
+**E** o usuário insere o saldo
+**Então** o programa exibe a mensagem: *Olá [Nome do Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque.*
